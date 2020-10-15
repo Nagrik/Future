@@ -1,0 +1,356 @@
+@media screen and (max-width:1024px){
+  .header__btn{
+    margin-left: 13.013vw;
+    margin-top: 100px;
+  }
+  .header,
+  .section-2,
+  .section-3,
+  .section4,
+  .section5,
+  .section6,
+  .section7{
+      height: 70vh;
+  }
+  
+  .header__title{
+      margin-left: -180px;
+  }
+  .header__triangle-title::before{
+      margin-left: 20px;
+  }
+  .header__menu-left,
+  .header__menu-right{
+      display: none;
+  }
+  .team{
+      padding-left: 9vw;
+  }
+  .work{
+      padding-left: 100px;
+      &__title{
+          padding-top: 30px;
+      }
+      &__subtitle{
+          font-size: 1.5vw;
+      } 
+ 
+  }
+ 
+     .image__content{
+    height: 57.13756613756614vh;
+    margin-top: 30%;
+}
+.services__btn{
+    margin-left: 1.557vw;
+}
+.client__wrapper{
+    margin-left: 30px;
+}
+.client__wrapper-2{
+    width: 17vw;
+}
+.address__wrapper{
+    padding-left: 120px;
+    padding-right: 80px;
+}
+.btn__team{
+    margin-top: -120px;
+}
+.photoset__top-photo{
+    padding-top: 50px;
+}
+.team__subtitle{
+    font-size: 1.9vw;
+}
+.team__title{
+    font-size: 4.333vw;
+    &::after{
+        margin-left: -10.5vw;
+        margin-top: 7.5vw;
+    }
+}
+.choose__content{
+    height: 42vh;
+}
+.section4__img{
+    height: 75vh;
+}
+.services__image{
+    width: 50vw;
+    height: 70vh;
+}
+.image__content{
+    width: 86vw;
+    margin-top: 28%;
+    height: 44vh;
+    &-top{
+        width: 54vw;
+    }
+}
+.photo__girl{
+    height: 76.5vh;
+}
+.client{
+    height: 76.5vh;
+    &__dots{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+.etc{
+    padding-top: 50px;
+}
+.touch__title{
+    padding-top: 251px;
+}
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header__btn{
+        margin-top: 100px;
+      }
+      .work{
+          padding-top: 100px;
+      }
+      .work__images-left{
+          padding-top: 100px;
+      }
+      .work__images-right{
+        padding-top: 100px;
+    }
+    .services__wrapper{
+        margin-left: -100px;
+    }
+    .services__image{
+        width: 64vw;
+    }
+    .client__title{
+        width: 28vw;
+    }
+    .client__dots{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .client__descr{
+        height: 31vh;
+    }
+    .services__subtitle{
+        height:  35vh;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header,
+    .section-2,
+    .section-3,
+    .section4,
+    .section5,
+    .section6,
+    .section7{
+        height: 80vh;
+    }
+    
+    .section6{
+        padding-top: 54px;
+    }
+.photoset{
+    width: 90vw;
+    &__top{
+        width: 70vw;
+    }
+    &__bot{
+        width: 70vw;
+    }
+}
+.team__subtitle{
+    font-size: 1.9vw;
+}
+.team__title{
+    font-size: 4.333vw;
+    &::after{
+        margin-left: -10.5vw;
+        margin-top: 7.5vw;
+    }
+}
+.services__image{
+    width: 76vw;
+    height: 70vh;
+    margin-top: 200px;
+
+}
+.image__content{
+    height: 67vh;
+    width: 55vw;
+    margin-top: 10px;
+    margin-left: -20px;
+    &-top{
+        width: 55vw;
+    }
+}
+.item__subtitle{
+    font-size: 1.3vw;
+}
+.services__subtitle{
+    height:  35vh;
+}
+.client__title{
+    padding-top: 0;
+}
+.header__title{
+    margin-left: -132px;
+}
+.btn__team{
+    margin-top: 80px;
+}
+.choose__content{
+    height: 42vh;
+}
+.section4__img{
+    height: 75vh;
+}
+.services{
+    padding-top: 90px;
+    height: 80vh;
+}
+.photo__girl{
+    height: 86.4vh;
+}
+.client{
+    height: 86.4vh;
+    &__dots{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+.etc{
+    padding-top: 50px;
+}
+.touch__title{
+    padding-top: 191px;
+}
+.client__wrapper{
+    margin-left: 30px;
+}
+.work{
+    padding-left: 20px;
+    &__title{
+        padding-top: 30px;
+    }
+    &__subtitle{
+        font-size: 1.5vw;
+    } 
+}
+.services__btn{
+    margin-left: 1.557vw;
+}
+.client__wrapper-2{
+    width: 17vw;
+    padding-top: 40px;
+}
+.client__comment{
+    height: 70vh;
+}
+.client__content{
+    padding-top: 55px;
+    &-name{
+        font-size: 16px;
+    }
+}
+.client__title{
+    width: 28vw;
+    font-size: 33px;
+}
+.client__dots{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.client__descr{
+    height: 50vh;
+}
+.services__subtitle{
+    height:  35vh;
+    font-size: 16px;
+}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .header__title{
+        margin-left: -100px;
+    }
+    .header__btn{
+        margin-top: 70px;
+    }
+    .photoset{
+        width: 90vw;
+        &__top{
+            width: 600px;
+        }
+        &__bot{
+            width: 600px;
+        }
+        &__info{
+            padding-top: 10px;
+        }
+    }
+    .photoset__top-photo{
+        padding-top: 0px;
+    }
+    .btn__team{
+        margin-top: -70px;
+    }
+}
+@media(max-width:600px){
+    .header__btn{
+        margin-top: 100px;
+    }
+    .header__title{
+        margin-left: -80px;
+    }
+    .choose__all{
+        margin-left: 250px;
+    }
+    .choose__title{
+        margin-top: 70px;
+    }
+    .services__image{
+        width: 100vw;
+        margin-left: 130px;
+    }
+    .image__content{
+margin-left: 50px;
+    }
+    .services__subtitle{
+        max-width: 35vw;
+        width: 35vw;
+    }
+    .client{
+        height: 76.5vh;
+    }
+    .photo__girl{
+        height: 76.5vh;
+    }
+    .section4__img{
+        width: 900px;
+    }
+    .client__content{
+        padding-top: 90px;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
