@@ -330,9 +330,13 @@ margin-left: 50px;
     .services__subtitle{
         max-width: 35vw;
         width: 35vw;
+        text-align: left;
     }
     .client{
         height: 76.5vh;
+        &__title{
+            width: 55vw;
+        }
     }
     .photo__girl{
         height: 76.5vh;
@@ -343,14 +347,181 @@ margin-left: 50px;
     .client__content{
         padding-top: 90px;
     }
-}
+    .header__title{
+        font-size: 12.3vw;
+        margin-top: 90px;
+    }
+    .header__subtitle{
+        font-size: 6.3vw;
+        width: 100vw;
+        margin-left: -120px;
+    }
+    .header__btn{
+        margin-left: 20px;
+    }
+    .team__title{
+        font-size: 8.3vw;
+        &::after{
+            margin-top: 60px;
+            margin-left: -100px;
+        }
+    }
+    .team__subtitle{
+        font-size: 2.5vw;
+    }
+    .btn{
+        width: 141px;
+    }
+    .photoset__top,
+    .photoset__bot{
+        margin-left: 110px;
+    }
+    .work__title{
+        font-size: 8.3vw;
+    }
+    .work__subtitle{
+        font-size: 2.5vw;
+    }
+    .choose__title{
+        font-size: 8.3vw;
+        width: 51vw;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+    .choose__subtitle{
+        font-size: 2.5vw;
+    }
+    .choose__item-title{
+        font-size: 3.1vw;
+    }
+    .choose__item-subtitle{
+        font-size: 1.5vw;
+    }
+    .choose__all{
+        margin-left: 90px;
+    }
+    }
+    
+
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-
+.header__title{
+    font-size: 12.3vw;
+    margin-top: 90px;
+}
+.header__subtitle{
+    font-size: 6.3vw;
+    width: 100vw;
+    margin-left: -120px;
+}
+.header__btn{
+    margin-left: 20px;
+}
+.team__title{
+    font-size: 8.3vw;
+    &::after{
+        margin-top: 60px;
+        margin-left: -100px;
+    }
+}
+.team__subtitle{
+    font-size: 2.5vw;
+}
+.btn{
+    width: 141px;
+}
+.photoset__top,
+.photoset__bot{
+    margin-left: 110px;
+}
+.work__title{
+    font-size: 8.3vw;
+}
+.work__subtitle{
+    font-size: 2.5vw;
+}
+.choose__title{
+    font-size: 8.3vw;
+    width: 51vw;
+    margin-left: -150px;
+    margin-top: 0px;
+}
+.choose__subtitle{
+    font-size: 2.5vw;
+}
+.choose__item-title{
+    font-size: 3.1vw;
+}
+.choose__item-subtitle{
+    font-size: 1.5vw;
+}
+.choose__all{
+    margin-left: 90px;
+}
 }
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-
+    .header__title{
+        font-size: 12.3vw;
+        margin-top: 90px;
+    }
+    .header__subtitle{
+        font-size: 6.3vw;
+        width: 100vw;
+        margin-left: -120px;
+    }
+    .header__btn{
+        margin-right: -150px;
+    }
+    .team__title{
+        font-size: 8.3vw;
+        &::after{
+            margin-top: 60px;
+            margin-left: -100px;
+        }
+    }
+.section5{
+    display: none;
 }
+.work__subtitle{
+    font-size: 4.5vw;
+}
+.team__subtitle{
+    font-size: 12px;
+    width: 140px;
+}
+.btn{
+    width: 141px;
+}
+.photoset__top,
+.photoset__bot{
+    margin-left: 110px;
+}
+.work__title{
+    font-size: 11.3vw;
+}
+.work__subtitle{
+    font-size: 16px;
+}
+.choose__title{
+    font-size: 10.3vw;
+    width: 66vw;
+    margin-left: -150px;
+    margin-top: 0px;
+}
+.choose__subtitle{
+    font-size: 24px;
+}
+.choose__item-title{
+    font-size: 3.2vw;
+}
+.choose__item-subtitle{
+    font-size: 6px;
+}
+.choose__all{
+    margin-left: 90px;
+}
+}
+
